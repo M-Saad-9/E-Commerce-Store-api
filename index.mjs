@@ -11,7 +11,7 @@ app.get('/', (req, response) => {
     response.send('Hello World from FashionCart!')
   })
 
-app.get('/product', (req, response) => {
+app.get('/products', (req, response) => {
 
     response.send(products)
   })
